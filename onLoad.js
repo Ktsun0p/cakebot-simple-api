@@ -6,7 +6,7 @@ window.onload = () => generateRandomPicture();
 button.addEventListener("click", () => generateRandomPicture());
 
 function generateRandomPicture(){
-	let randomNum = Math.floor(Math.random() * 83); 
+	let randomNum = Math.floor(Math.random() * 82)+1; 
     const urls = ["mobimages/","mobimages2/"]
     var al = Math.floor(Math.random()*urls.length);
     console.log(`${al}${randomNum}.png`)
